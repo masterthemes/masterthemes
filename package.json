@@ -1,0 +1,17 @@
+{
+    "name": "masterthemes-specs",
+    "version": "0.0.1",
+    "description": "A tooling infrastructure for building application themes - Specifications",
+    "repository": "github:masterthemes/masterthemes-specs",
+    "homepage": "https://github.com/masterthemes/masterthemes-specs#readme",
+    "bugs": "https://github.com/masterthemes/masterthemes-specs/issues",
+    "author": "Brennan Fee <brennan@github.mailbots.org> (https://github.com/masterthemes)",
+    "keywords": [],
+    "devDependencies": {},
+    "dependencies": {},
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "test": "echo 'Error: no tests specified' && exit 1"
+    }
+}
