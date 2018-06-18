@@ -7,10 +7,26 @@
     "bugs": "https://github.com/masterthemes/masterthemes-specs/issues",
     "author": "Brennan Fee <brennan@github.mailbots.org> (https://github.com/masterthemes)",
     "keywords": [],
-    "devDependencies": {},
+    "devDependencies": {
+        "prettier": "^1.13.5"
+    },
     "dependencies": {},
     "private": true,
     "license": "MIT",
+    "prettier": {
+        "printWidth": 100,
+        "tabWidth": 4,
+        "useTabs": false,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false,
+        "arrowParens": "avoid",
+        "proseWrap": "always",
+        "requirePragma": false,
+        "insertPragma": false,
+        "semi": false
+    },
     "scripts": {
         "test": "echo 'Error: no tests specified' && exit 1"
     }
