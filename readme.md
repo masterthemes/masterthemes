@@ -14,17 +14,17 @@ In short, one master theme (hence the name) allows output for dozens of applicat
 ## Inspiration
 
 MasterThemes was heavily inspired by [Base16](http://chriskempson.com/projects/base16/), for more
-details please read [Inspiration](inspiration.md).
+details, please read [Inspiration](inspiration.md).
 
 ## Documentation
 
 MasterThemes is designed in a two-layered file mapping system. First, you have the master theme (or
-just theme for short) which houses the mappings between identifiable themed slots (like "constant",
-"identifier", or "comment") and the desired style of that item (some blue color and bold, for
-instance). Second, you have application templates that map any number of those identifiable themed
-slots to a particular applications necessary format and identifiers. Master themes are intended to
-be used across all application templates, and application templates are intended to be able to
-consume any master theme.
+just theme for short) which houses the mappings between identifiable themed slots (like constant,
+identifier, or comment) and the desired style of that item (some blue color and bold, for instance).
+Second, you have application templates that map any number of those identifiable themed slots to a
+particular applications necessary format and identifiers. Master themes are intended to be used
+across all application templates, and application templates are meant to be able to consume any
+master theme.
 
 Finally, a builder is a tool that can be used to combine a theme or themes with a template or
 templates to produce the necessary output that can then be used with the desired application(s). A
