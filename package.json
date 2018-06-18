@@ -1,10 +1,10 @@
 {
-    "name": "masterthemes-specs",
+    "name": "masterthemes",
     "version": "0.0.1",
-    "description": "A tooling infrastructure for building application themes - Specifications",
-    "repository": "github:masterthemes/masterthemes-specs",
-    "homepage": "https://github.com/masterthemes/masterthemes-specs#readme",
-    "bugs": "https://github.com/masterthemes/masterthemes-specs/issues",
+    "description": "A tooling infrastructure for building application themes",
+    "repository": "github:masterthemes/masterthemes",
+    "homepage": "https://github.com/masterthemes/masterthemes#readme",
+    "bugs": "https://github.com/masterthemes/masterthemes/issues",
     "author": "Brennan Fee <brennan@github.mailbots.org> (https://github.com/masterthemes)",
     "keywords": [],
     "devDependencies": {
