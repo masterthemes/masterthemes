@@ -18,9 +18,9 @@ keys for informational and attribution purposes.
 It is recommended, but not required, to use a repository naming scheme of: [theme-name]-mastertheme
 (with dashes as separators).
 
-## Styles
+## Style Entries
 
-Styles are the identifiable syntax elements that can contain the following information:
+Style entries are the identifiable syntax elements that can contain the following information:
 
 -   fgcolor - The foreground color, if background colors are not supported this will be the only
     color used.
@@ -78,3 +78,64 @@ This is an abbreviated example.
     },
 }
 ```
+
+## The List of Styles
+
+A theme need not contain all of the values here. The only two that are required are background and
+text as they form the base inherited values for all foreground and background colors, respectively.
+
+However, it is recommended to fill out as many of these entries as you can so that your template
+will retain maximum fidelity when used by different application templates.
+
+-   background - The default background color
+-   text - The default text color
+-   cursor-color - Color for the cursor
+-   current-line - Highlight for the current line
+-   terminal-black
+-   terminal-red
+-   terminal-green
+-   terminal-yellow
+-   terminal-blue
+-   terminal-magenta
+-   terminal-cyan
+-   terminal-white
+-   terminal-bold-black
+-   terminal-bold-red
+-   terminal-bold-green
+-   terminal-bold-yellow
+-   terminal-bold-blue
+-   terminal-bold-magenta
+-   terminal-bold-cyan
+-   terminal-bold-white
+-   terminal-ext-black
+-   terminal-ext-red
+-   terminal-ext-green
+-   terminal-ext-yellow
+-   terminal-ext-blue
+-   terminal-ext-magenta
+-   terminal-ext-cyan
+-   terminal-ext-white
+-   comment
+-   constant
+-   identifier
+-   statement
+-   pre-processor-directive
+-   type
+-   error
+-   todo
+-   string
+-   character
+-   number
+-   boolean
+-   float
+-   function
+-   conditional
+-   loop
+-   label
+-   operator
+-   keyword
+-   exception
+-   include
+-   define
+-   structure
+-   type-definition
