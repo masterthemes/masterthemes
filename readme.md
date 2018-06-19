@@ -4,6 +4,8 @@ A tooling infrastructure for building color themes.
 
 For the themes go here: [masterthemes.org](https://www.masterthemes.org/)
 
+Version 0.1 ALPHA
+
 ## Overview
 
 A set of tooling for building color themes and producing settings for a wide array of products from
