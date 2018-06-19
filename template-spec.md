@@ -9,6 +9,9 @@ within a template repository, but multiple templates are supported if the applic
 multiple files or if there are alternate versions that can be supported. Each repository must
 contain a config.json5 file at the root of the repository. This file drives the rest of the process.
 
+It is recommended, but not required, to use a repository naming scheme of:
+masterthemes-template-[template-name] \(with dashes as separators).
+
 For the template files themselves, the [Mustache](https://mustache.github.io/) template format
 should be used.
 

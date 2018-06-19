@@ -19,6 +19,9 @@ version of application templates. So a particular builder could support both 1.x
 2.x files but when processing only 1.x themes should be passed to 1.x templates. Generally, it would
 be recommended not to support multiple versions due to the complexity it provides.
 
+It is recommended, but not required, to use a repository naming scheme of:
+masterthemes-builder-[language/platform] \(with dashes as separators).
+
 ## Bulk Processing or Options
 
 Some builders may only support bulk processing, which is to say that every theme and every

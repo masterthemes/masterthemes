@@ -15,6 +15,9 @@ As the extension indicates, we use the [JSON5](https://json5.org/) syntax for th
 Every theme file will contain a "theme" key for the theme name and optional "author" and "theme-url"
 keys for informational and attribution purposes.
 
+It is recommended, but not required, to use a repository naming scheme of: [theme-name]-mastertheme
+(with dashes as separators).
+
 ## Styles
 
 Styles are the identifiable syntax elements that can contain the following information:
