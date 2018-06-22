@@ -16,10 +16,10 @@ limitation, Chris chose a goal of having most templates be able to support a dar
 within a single color palette. To support that goal, fully 8 of the "color slots" are traditionally
 used for blacks/whites/grays for backgrounds and text. That is **HALF** of your choices of colors
 gone merely to have two themes in one color set. You can see what I mean by the fact that in the
-[Base16 Styling Guidelines]https://github.com/chriskempson/base16/blob/master/styling.md) two of the
-colors have a comment of “(Not often used).” When you only have 16 colors to work with, any of those
-selections not being used hurts quite a lot. Those two colors equate to 12.5% of your available
-choices!
+[Base16 Styling Guidelines](https://github.com/chriskempson/base16/blob/master/styling.md) two of
+the colors have a comment of “(Not often used).” When you only have 16 colors to work with, any of
+those selections not being used hurts quite a lot. Those two colors equate to 12.5% of your
+available choices!
 
 NOTE: I am fully aware that newer themes using Base16 forgo this light/dark reuse within a single
 template, but it was part of the original design.

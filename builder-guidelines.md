@@ -32,13 +32,13 @@ application template will be processed. Others may allow you to pass a list of o
 The first thing a build needs to do is populate the list of theme and template repository sources.
 These are housed in two Git repositories.
 
--   [Theme Sources](https://github.com/masterthemes/theme-repositories/)
--   [Template Sources](https://github.com/masterthemes/template-repositories/)
+-   [Theme Sources](https://github.com/masterthemes/masterthemes-themes-source/)
+-   [Template Sources](https://github.com/masterthemes/masterthemes-templates-source/)
 
 Once those are cloned or updated, each contains a single JSON5 file called "list.json5". Each is an
 array of objects with a theme or template name along with a Git repository URL. Bulk builders would
 clone every one of the repos in each list, while other builders would only grab the desired
-repositories.
+repositories requested by the user.
 
 Once all repositories are collected\updated it can then go about the process of reading themes and
 passing data to the application templates to produce the output.

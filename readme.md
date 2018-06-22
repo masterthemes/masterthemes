@@ -51,7 +51,13 @@ The full list of application template repositories can be found here:
 
 ## The Builders
 
-TBD
+The "official" builder, maintained by the MasterThemes maintainers, is written in Node and can be
+found here: [Masterthemes Builder Node](https://github.com/masterthemes/masterthemes-builder-node/).
+
+If you decide to write a builder please submit a pull-request to this repository and add it to the
+list below.
+
+-   TBD
 
 ## Other tools for using MasterThemes
 

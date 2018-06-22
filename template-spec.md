@@ -7,7 +7,8 @@ Version 0.1 ALPHA
 Templates are housed within Git repositories. Only a single target application can be referred to
 within a template repository, but multiple templates are supported if the application requires
 multiple files or if there are alternate versions that can be supported. Each repository must
-contain a config.json5 file at the root of the repository. This file drives the rest of the process.
+contain a `config.json5` file at the root of the repository. This file drives the rest of the
+process.
 
 It is recommended, but not required, to use a repository naming scheme of:
 masterthemes-template-[template-name] \(with dashes as separators).
@@ -20,7 +21,7 @@ should be used.
 The config file contains information about the templates as well as what the application supports
 for styling (like does it support bold).
 
-### Sample config.json5
+### Sample `config.json5`
 
 ```json5
 {
