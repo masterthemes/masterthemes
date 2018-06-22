@@ -26,25 +26,26 @@ for styling (like does it support bold).
 ```json5
 {
     version: 0.1, // This should match the version string at the top of this documentation.
-    template: "Sample Editor",
-    author: "John Smith", // optional
-    template-url: "https://github.com/johnsmith/masterthemes-sample-editor", // optional
-    application-url: "https://sampleeditor.org/", // optional, points to information on the themed application
+    template: 'Sample Editor',
+    author: 'John Smith', // optional
+    templateUrl: 'https://github.com/johnsmith/masterthemes-sample-editor', // optional
+    authorUrl: 'https://johnsmith.me', // optional
+    applicationUrl: 'https://sampleeditor.org/', // optional, points to information on the themed application
     support: {
-        background-colors-per-item: true,
+        backgroundColorsPerItem: true,
         bold: true,
         italic: true,
         underline: false,
     },
     files: [
         {
-            template: "templates/default.mustache",
-            extension: ".yml",
+            template: 'templates/default.mustache',
+            extension: '.yml',
         },
         {
-            template: "templates/256-alternate.mustache",
-            extension: "-256.yml",
-        }
+            template: 'templates/256-alternate.mustache',
+            extension: '-256.yml',
+        },
     ],
 }
 ```
@@ -61,24 +62,27 @@ values to be used and so on.
 
 Lastly, the formats will be broken out into explicit boolean indicators (is-bold, is-italic, etc.)
 
-So rather than looking like the input theme format, such as the following.
+It should also be noted that no comments will flow through from the theme file so they can not be
+used to pass information to the template.
+
+So rather than looking like the input theme format, such as the following:
 
 ```json5
 {
     version: 0.1,
-    theme: "My Awesome Theme",
-    slug: "my-awesome-theme",
-    author: "John Smith",
-    theme-url: "https://someplace.org",
+    theme: 'My Awesome Theme',
+    author: 'John Smith',
+    themeUrl: 'https://github.com/jsmith/my-awesome-theme',
+    authorUrl: '', // This is optional... a comment that won't get passed through to the template
     styles: {
         comment: {
-            fgcolor: "#7cafc2"
+            fgcolor: '#7cafc2',
         },
         identifiers: {
-            fgcolor: "comment",
-            format: [ bold, italic ],
-        }
-    }
+            fgcolor: 'comment',
+            format: [bold, italic],
+        },
+    },
 }
 ```
 
@@ -90,7 +94,8 @@ You will receive this:
     theme: "My Awesome Theme",
     slug: "my-awesome-theme",
     author: "John Smith",
-    theme-url: "https://someplace.org",
+    themeUrl: "https://github.com/jsmith/my-awesome-theme",
+    authorUrl: "",
     styles: {
         comment: {
             fgcolor: "#7cafc2"
@@ -117,7 +122,7 @@ You will receive this:
             fgcolor-dec-r: 0.87,
             fgcolor-dec-g: 0.50,
             fgcolor-dec-b: 0.21,
-            format: [ bold, italic ],
+            format: [bold, italic],
             is-bold: true,
             is-italic: true,
             is-underline: false,

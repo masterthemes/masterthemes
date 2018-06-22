@@ -59,22 +59,23 @@ This is an abbreviated example.
 ```json5
 {
     // Comments are supported, thanks to json5
-    version: 0.1,  // Should match the version at the top of this documentation
-    theme: "My Awesome Theme",
-    author: "John Smith", // This value is optional
-    theme-url: "https://github.com/jsmith/my-awesome-theme", // This value is optional
+    version: 0.1, // Should match the version at the top of this documentation
+    theme: 'My Awesome Theme',
+    author: 'John Smith', // This value is optional
+    themeUrl: 'https://github.com/jsmith/my-awesome-theme', // This value is optional
+    authorUrl: '', // This is also optional
     styles: {
         background: {
-            bgcolor: "#282936", // trailing commas are ok, again thanks to json5
+            bgcolor: '#282936', // trailing commas are ok, again thanks to json5
             // omitted values are fine and interpreted as empty values
         },
         comment: {
-            fgcolor: "#121212",
+            fgcolor: '#121212',
         },
         identifiers: {
-            fgcolor: "comment", // inherits the color from comment above, so #121212
-            format: [ bold, italic ],
-        }
+            fgcolor: 'comment', // inherits the color from comment above, so #121212
+            format: [bold, italic],
+        },
     },
 }
 ```
@@ -89,37 +90,37 @@ will retain maximum fidelity when used by different application templates.
 
 -   background - The default background color
 -   text - The default text color
--   cursor-color - Color for the cursor
--   current-line - Highlight for the current line
--   terminal-black
--   terminal-red
--   terminal-green
--   terminal-yellow
--   terminal-blue
--   terminal-magenta
--   terminal-cyan
--   terminal-white
--   terminal-bold-black
--   terminal-bold-red
--   terminal-bold-green
--   terminal-bold-yellow
--   terminal-bold-blue
--   terminal-bold-magenta
--   terminal-bold-cyan
--   terminal-bold-white
--   terminal-ext-black
--   terminal-ext-red
--   terminal-ext-green
--   terminal-ext-yellow
--   terminal-ext-blue
--   terminal-ext-magenta
--   terminal-ext-cyan
--   terminal-ext-white
+-   cursorColor - Color for the cursor
+-   currentLine - Highlight for the current line
+-   terminalBlack
+-   terminalRed
+-   terminalGreen
+-   terminalYellow
+-   terminalBlue
+-   terminalMagenta
+-   terminalCyan
+-   terminalWhite
+-   terminalBoldBlack
+-   terminalBoldRed
+-   terminalBoldGreen
+-   terminalBoldYellow
+-   terminalBoldBlue
+-   terminalBoldMagenta
+-   terminalBoldCyan
+-   terminalBoldWhite
+-   terminalExtBlack
+-   terminalExtRed
+-   terminalExtGreen
+-   terminalExtYellow
+-   terminalExtBlue
+-   terminalExtMagenta
+-   terminalExtCyan
+-   terminalExtWhite
 -   comment
 -   constant
 -   identifier
 -   statement
--   pre-processor-directive
+-   preProcessorDirective
 -   type
 -   error
 -   todo
@@ -138,4 +139,4 @@ will retain maximum fidelity when used by different application templates.
 -   include
 -   define
 -   structure
--   type-definition
+-   typeDefinition
