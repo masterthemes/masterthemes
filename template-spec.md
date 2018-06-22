@@ -60,7 +60,8 @@ Styles object will be a direct color.
 Secondly, alternate versions of the colors will be included. This allows themes that only handle RGB
 values to be used and so on.
 
-Lastly, the formats will be broken out into explicit boolean indicators (is-bold, is-italic, etc.)
+Lastly, the formats will be broken out into explicit boolean indicators (is-bold, is-italic, etc.).
+As well as given as a comma-separated list.
 
 It should also be noted that no comments will flow through from the theme file so they can not be
 used to pass information to the template.
@@ -123,6 +124,7 @@ You will receive this:
             fgcolor-dec-g: 0.50,
             fgcolor-dec-b: 0.21,
             format: [bold, italic],
+            formatString: "bold,italic",
             is-bold: true,
             is-italic: true,
             is-underline: false,
